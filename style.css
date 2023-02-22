@@ -1,0 +1,33 @@
+:root {
+    --skin: #f6c09c;
+    --white: #fff;
+}
+
+body{
+    margin: 0;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.head {
+    width: 100px;
+    height: 200px;
+    background-color: var(--skin);
+    border-radius: 50px;
+    position: relative;
+}
+
+#eye-left{
+    width: 20px;
+    height: 20px;
+    background-color: var(--white);
+    position: absolute;
+    top: 40px;
+    border-radius: 50%;
+    left: 20px
+}
