@@ -1,0 +1,197 @@
+:root {
+    --skin: #f6c09c;
+    --middle-skin: #f3b388;
+    --dark-skin: #e8a579;
+    --background: #ed4042;
+    --red: #ed2860;
+    --dark-red: #680524;
+    --black: #00243a;
+    --white: #fff;
+}
+
+body{
+    margin: 0;
+    background-color: var(--background);
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* PARTES DE LA CABEZA */
+
+.head {
+    width: 100px;
+    height: 150px;
+    background-color: var(--skin);
+    border-radius: 50px;
+    position: relative;
+}
+
+#eyebrown{
+    width: 50px;
+    height: 8px;
+    background-color: var(--skin);
+    position: absolute;
+    top: 40px;
+    left: 25px;
+}
+
+#eye-left{
+    width: 25px;
+    height: 25px;
+    background-color: var(--white);
+    position: absolute;
+    border-radius: 50%;
+    top: 40px;
+    left: 25px;
+}
+
+#right-pupil{
+    width: 5px;
+    height: 5px;
+    background-color: var(--black);
+    position: absolute;
+    top: 50px;
+    border-radius: 50%;
+    left: 35px;
+}
+
+#left-pupil{
+    width: 5px;
+    height: 5px;
+    background-color: var(--black);
+    position: absolute;
+    top: 50px;
+    border-radius: 50%;
+    left: 60px;
+}
+
+#eye-right{
+    width: 25px;
+    height: 25px;
+    background-color: var(--white);
+    position: absolute;
+    top: 40px;
+    border-radius: 50%;
+    left: 50px;
+}
+
+#beard{
+    width: 100px;
+    height: 110px;
+    background-color: var(--black);
+    border-radius: 35%;
+    position: relative;
+    top: 70px;
+}
+
+#nose{
+    width: 25px;
+    height: 25px;
+    background-color: var(--skin);
+    position: absolute;
+    border-radius: 50%;
+    top: 63px;
+    left: 37px;
+}
+
+#mouth{
+    width: 45px;
+    height: 25px;
+    background-color: var(--dark-red);
+    position: absolute;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    top: 105px;
+    left: 27px;
+    overflow: hidden;
+}
+
+#teeth{
+    width: 35px;
+    height: 15px;
+    border-radius: 20%;
+    background-color: var(--white);
+    position: absolute;
+    top: -5px;
+}
+
+#tounge {
+    width: 30px;
+    height: 15px;
+    border-radius: 20%;
+    background-color: var(--red);
+    position: absolute;
+    top: 15px;
+    left: -5px;
+}
+
+/* PARTES DE ATRAS DE LA CABEZA */
+
+
+.back{
+    position: relative;
+}
+
+
+#bottom{
+    width: 70px;
+    height: 120px;
+    background-color: var(--dark-skin);
+    position:absolute;
+    /* top: 90px; */
+    left: 15px;
+}
+
+#chin {
+    width: 100px;
+    height: 105px;
+    background-color: var(--middle-skin);
+    border-radius: 50px;
+    position: absolute;
+    top: -20px;
+}
+
+#right-ear{
+    width: 20px;
+    height: 20px;
+    background-color: var(--middle-skin);
+    position: absolute;
+    border-radius: 50px;
+    left: -10px;
+    top: -20px;
+}
+
+#right-dark-ear{
+    width: 10px;
+    height: 10px;
+    background-color: var(--dark-skin);
+    position: absolute;
+    border-radius: 50px;
+    left: -5px;
+    top: -15px;
+}
+
+#left-ear{
+    width: 20px;
+    height: 20px;
+    background-color: var(--middle-skin);
+    position: absolute;
+    border-radius: 50px;
+    left: 90px;
+    top: -20px;
+}
+
+#left-dark-ear{
+    width: 10px;
+    height: 10px;
+    background-color: var(--dark-skin);
+    position: absolute;
+    border-radius: 50px;
+    left: 95px;
+    top: -15px;
+}
