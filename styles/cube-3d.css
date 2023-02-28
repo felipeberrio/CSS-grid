@@ -1,0 +1,115 @@
+#byebyecube {
+    background-color: #aaa;
+    z-index: 1;
+    overflow: hidden;
+}
+@media (min-width: 960px)
+{ .entry.wide {
+    width: 100%;
+}}
+@media (min-width: 960px)
+{.entry {
+    float: left;
+    width: 50%;
+}}
+.entry {
+    text-align: center;
+    min-height: 400px;
+    position: relative;
+    overflow: hidden;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+:root {
+    --eight-w: 2vw;
+}
+
+
+
+
+
+
+
+
+
+#byebyecube div {
+    width: 300px;
+    height: 400px;
+    position: relative;
+    margin-left: -150px;
+    top: 0;
+    background-image: linear-gradient(30deg,#aaa 30%,rgba(170,170,170,0) 30.1%),linear-gradient(-30deg,#aaa 30%,rgba(170,170,170,0) 30.1%);
+    transform-style: preserve-3d;
+}
+.entry div {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+.entry {
+    text-align: center;
+    min-height: 400px;
+    position: relative;
+    overflow: hidden;
+}
+body {
+    line-height: 1;
+}
+:root {
+    --eight-w: 2vw;
+}
+#byebyecube div:before {
+    width: 200px;
+    height: 280px;
+    left: 50px;
+    top: -8px;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(30deg,transparent 26%,#ccc 26.3%,#ccc 74%,transparent 74.3%),linear-gradient(150deg,transparent 26%,#999 26.3%,#999 74%,transparent 74.3%),linear-gradient(150deg,transparent 26%,#eee 26.3%,#eee 73%,transparent 73%),linear-gradient(30deg,transparent 27%,#eee 27%,#eee 74%,transparent 74.3%),radial-gradient(circle at center,#eee 20%,transparent 20%);
+    background-size: 50% 60%;
+    background-position: 0 100%,100% 100%,0 48.5%,100% 48.5%,50% 60%;
+    animation: cube-drop 6000ms infinite alternate linear;
+    z-index: -1;
+}
+.entry div:before, .entry div:after {
+    display: block;
+    content: '';
+    position: absolute;
+}
+#byebyecube div:after {
+    width: 113px;
+    height: 100px;
+    left: 92px;
+    top: 164px;
+    z-index: 0;
+    animation: cube-shadow 6000ms infinite alternate linear;
+}
+.entry div:before, .entry div:after {
+    display: block;
+    content: '';
+    position: absolute;
+}

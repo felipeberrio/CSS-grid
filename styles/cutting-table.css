@@ -1,0 +1,106 @@
+#grain {
+    background-color: #6c350f;
+}
+@media (min-width: 960px)
+{.entry {
+    float: left;
+    width: 50%;
+}}
+.entry {
+    text-align: center;
+    min-height: 400px;
+    position: relative;
+    overflow: hidden;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+:root {
+    --eight-w: 2vw;
+}
+
+
+/* div menor */
+
+#grain div {
+    width: 300px;
+    height: 100px;
+    margin-left: -150px;
+    margin-top: -100px;
+    background: linear-gradient(#8e6937,#8e6937) 100% 61.2%/61.2% 0.2em,linear-gradient(to bottom,rgba(139,69,19,0.2),rgba(139,69,19,0)) 0 0/100% 100%,radial-gradient(ellipse at 0 50%,#f5deb3 6%,#d2b48c 6.5%,#d2b48c 13%,#f5deb3 13.5%,#f5deb3 23%,#d2b48c 23.5%,#d2b48c 30%,#f5deb3 30.5%,#f5deb3 43%,#d2b48c 43.5%,#d2b48c 50%,#f5deb3 50.5%,#f5deb3 60%,#d2b48c 60.5%,#d2b48c 67%,#f5deb3 67.5%,#f5deb3 74%,rgba(245,222,179,0) 74.5%) 0 15%/50% 2em,radial-gradient(ellipse at 0 38%,#f5deb3 60%,#d2b48c 60.5%,#d2b48c 65%,rgba(210,180,140,0) 65.5%) 19% 21%/50% 2em,radial-gradient(ellipse at 0 38%,#f5deb3 60%,#d2b48c 60.5%,#d2b48c 63%,#f5deb3 63.5%,#f5deb3 65%,rgba(245,222,179,0) 65.5%) 33% 21%/50% 2.4em,linear-gradient(#d2b48c,#d2b48c) 0 44%/8% 0.1em,linear-gradient(#d2b48c,#d2b48c) 0 47%/14.5% 0.1em,linear-gradient(#f5deb3,#f5deb3) 0 40%/20% 1em,radial-gradient(ellipse at 100% 50%,#f5deb3 6%,#d2b48c 6.5%,#d2b48c 13%,#f5deb3 13.5%,#f5deb3 23%,#d2b48c 23.5%,#d2b48c 30%,#f5deb3 30.5%,#f5deb3 43%,#d2b48c 43.5%,#d2b48c 50%,#f5deb3 50.5%,#f5deb3 60%,#d2b48c 60.5%,#d2b48c 67%,#f5deb3 67.5%,#f5deb3 70%,rgba(245,222,179,0) 70.5%) 100% 5%/30% 1.4em,radial-gradient(ellipse at 100% 38%,#f5deb3 60%,#d2b48c 60.5%,#d2b48c 67%,#f5deb3 67.5%,#f5deb3 70%,rgba(245,222,179,0) 70.5%) 100% 9%/40% 1.4em,radial-gradient(ellipse at 70% 50%,#f5deb3 6%,#d2b48c 6.5%,#d2b48c 13%,#f5deb3 13.5%,#f5deb3 23%,#d2b48c 23.5%,#d2b48c 30%,#f5deb3 30.5%,#f5deb3 43%,#d2b48c 43.5%,#d2b48c 50%,#f5deb3 50.5%,#f5deb3 60%,#d2b48c 60.5%,#d2b48c 67%,#f5deb3 67.5%,#f5deb3 70%,rgba(245,222,179,0) 70.5%) 120% 75%/70% 2em,radial-gradient(ellipse at 20% 50%,#f5deb3 6%,#d2b48c 6.5%,#d2b48c 13%,#f5deb3 13.5%,#f5deb3 23%,#d2b48c 23.5%,#d2b48c 30%,#f5deb3 30.5%,#f5deb3 43%,#d2b48c 43.5%,#d2b48c 50%,#f5deb3 50.5%,#f5deb3 60%,#d2b48c 60.5%,#d2b48c 67%,#f5deb3 67.5%,#f5deb3 70%,rgba(245,222,179,0) 70.5%) 0 70%/32% 1.4em,radial-gradient(ellipse at 0 100%,#f5deb3 6%,#d2b48c 6.5%,#d2b48c 13%,#f5deb3 13.5%,#f5deb3 23%,#d2b48c 23.5%,#d2b48c 30%,#f5deb3 30.5%,#f5deb3 43%,#d2b48c 43.5%,#d2b48c 50%,#f5deb3 50.5%,#f5deb3 60%,#d2b48c 60.5%,#d2b48c 67%,#f5deb3 67.5%,#f5deb3 70%,rgba(245,222,179,0) 70.5%) 0 100%/50% 1em,radial-gradient(ellipse at 100% 100%,#f5deb3 6%,#d2b48c 6.5%,#d2b48c 13%,#f5deb3 13.5%,#f5deb3 23%,#d2b48c 23.5%,#d2b48c 30%,#f5deb3 30.5%,#f5deb3 43%,#d2b48c 43.5%,#d2b48c 50%,#f5deb3 50.5%,#f5deb3 60%,#d2b48c 60.5%,#d2b48c 67%,#f5deb3 67.5%,#f5deb3 70%,rgba(245,222,179,0) 70.5%) 100% 105%/40% 1em,repeating-linear-gradient(to bottom,#f5deb3,#f5deb3 0.1em,#d2b48c 0.1em,#d2b48c 0.2em) 0 0/100% 100%;
+    background-color: #f5deb3;
+    background-repeat: no-repeat;
+    transform: perspective(200px) rotateX(20deg);
+    transform-origin: center bottom;
+    box-shadow: 0 1.2em 0.5em -0.2em rgb(0 0 0 / 70%), 0 1.7em 0 0.6em #ccc;
+}
+.entry div {
+position: absolute;
+left: 50%;
+top: 50%;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+user agent stylesheet
+div {
+display: block;
+}
+.entry {
+text-align: center;
+min-height: 400px;
+position: relative;
+overflow: hidden;
+}
+body {
+line-height: 1;
+}
+:root {
+--eight-w: 2vw;
+}
+#grain div::before {
+width: 100%;
+height: 20%;
+bottom: -20%;
+background: linear-gradient(to bottom,rgba(139,69,19,0.2),rgba(139,69,19,0)) 0 0/100% 100%,repeating-linear-gradient(45deg,rgba(139,69,19,0.4),rgba(139,69,19,0.4) 0.1em,rgba(139,69,19,0) 0.1em,rgba(139,69,19,0) 0.2em);
+background-color: #ddc7a9;
+transform: perspective(200px) rotateX(-20deg);
+transform-origin: center top;
+box-shadow: 0 3.92em 0 1.32em #999;
+}
+.entry div:before, .entry div:after {
+display: block;
+content: '';
+position: absolute;
+}
+#grain div::after {
+width: 100%;
+height: 300%;
+bottom: 0;
+background: linear-gradient(45deg,rgba(255,255,255,0) 30%,rgba(255,255,255,0.2) 50%,rgba(255,255,255,0) 70%) 45% 86%/1em 0.7em,linear-gradient(-45deg,rgba(255,255,255,0) 30%,rgba(255,255,255,0.2) 50%,rgba(255,255,255,0) 70%) 55% 86%/1em 0.7em,linear-gradient(to right,rgba(0,0,0,0),rgba(0,0,0,0.2) 40%,rgba(0,0,0,0.2) 65%,rgba(0,0,0,0) 100%) 50% 86%/1em 1.4em,radial-gradient(circle at 50% 130%,rgba(0,0,0,0) 15%,rgba(0,0,0,0.15) 18%,rgba(0,0,0,0) 22%,rgba(0,0,0,0.15) 25%,rgba(0,0,0,0) 31%,rgba(0,0,0,0.15) 34%,rgba(0,0,0,0) 38%,rgba(0,0,0,0.15) 44%,rgba(0,0,0,0) 50%) 50% 85%/5em 2.5em,radial-gradient(circle at 50% 130%,#aaa 45%,#777 48.5%,#777 52%,rgba(255,255,255,0.5) 52.5%,rgba(255,255,255,0.5) 55.5%,rgba(255,255,255,0) 60%) 50% 85%/5em 2.5em;
+background-repeat: no-repeat;
+transform: perspective(200px) rotateX(-20deg);
+transform-origin: center bottom;
+}
+.entry div:before, .entry div:after {
+display: block;
+content: '';
+position: absolute;
+}
