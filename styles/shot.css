@@ -1,0 +1,118 @@
+#film {
+    background-color: black;
+}
+@media (min-width: 960px)
+ {.entry.wide{
+    width: 100%;
+}}
+@media (min-width: 960px)
+ {.entry{
+    float: left;
+    width: 50%;
+}}
+.entry {
+    text-align: center;
+    min-height: 400px;
+    position: relative;
+    overflow: hidden;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+:root {
+    --eight-w: 2vw;
+}
+
+
+
+
+
+
+
+
+#film div {
+    box-sizing: border-box;
+    font-size: 10px;
+    width: 34em;
+    height: 5em;
+    margin-left: -17em;
+    margin-top: 2em;
+}
+.entry div {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+.entry {
+    text-align: center;
+    min-height: 400px;
+    position: relative;
+    overflow: hidden;
+}
+body {
+    line-height: 1;
+}
+:root {
+    --eight-w: 2vw;
+}
+#film div:before {
+    top: -5.5em;
+    left: 1.2em;
+    background-image: repeating-linear-gradient(to right,white,white 2em,rgba(255,255,255,0) 2em,rgba(255,255,255,0) 4em),linear-gradient(transparent,transparent),linear-gradient(transparent,transparent),linear-gradient(transparent,transparent),linear-gradient(transparent,transparent),linear-gradient(transparent,transparent),linear-gradient(transparent,transparent),linear-gradient(transparent,transparent),linear-gradient(transparent,transparent),linear-gradient(transparent,transparent),linear-gradient(transparent,transparent),linear-gradient(transparent,transparent);
+    background-size: 100% 100%,100% 100%,100% 100%,100% 100%,100% 100%,100% 100%,100% 100%,100% 100%,100% 100%,100% 100%,100% 100%,100% 100%;
+    background-position: 0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0;
+    transform: rotate(0) skew(25deg);
+    animation: -2s filmclap 8s infinite linear,-2s filmclapbg1 8s infinite steps(1);
+    transform-origin: bottom left;
+}
+#film div:before, #film div:after {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+.entry div:before, .entry div:after {
+    display: block;
+    content: '';
+    position: absolute;
+}
+#film div:after {
+    background-image: repeating-linear-gradient(to right,white,white 2em,rgba(255,255,255,0) 2em,rgba(255,255,255,0) 4em),linear-gradient(transparent,transparent),linear-gradient(transparent,transparent),linear-gradient(transparent,transparent),linear-gradient(transparent,transparent),linear-gradient(transparent,transparent),linear-gradient(transparent,transparent),linear-gradient(transparent,transparent),linear-gradient(transparent,transparent),linear-gradient(transparent,transparent),linear-gradient(transparent,transparent),linear-gradient(transparent,transparent),linear-gradient(transparent,transparent),linear-gradient(transparent,transparent);
+    background-size: 100% 100%,100% 100%,100% 100%,100% 100%,100% 100%,100% 100%,100% 100%,100% 100%,100% 100%,100% 100%,100% 100%,100% 100%,100% 100%,100% 100%;
+    background-position: 0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0;
+    transform: skew(-25deg);
+    animation: -2s filmclapbg2 8s infinite steps(1) both;
+}
+#film div:before, #film div:after {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+.entry div:before, .entry div:after {
+    display: block;
+    content: '';
+    position: absolute;
+}
