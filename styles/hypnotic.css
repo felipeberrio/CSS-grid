@@ -1,0 +1,69 @@
+
+#hypnotic div {
+    width: 300px;
+    height: 300px;
+    margin-left: -150px;
+    margin-top: -150px;
+    overflow: hidden;
+    background-color: black;
+    box-shadow: 0 0 0 0.6em black;
+}
+.entry div {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+.entry {
+    text-align: center;
+    min-height: 400px;
+    position: relative;
+    overflow: hidden;
+}
+body {
+    line-height: 1;
+}
+:root {
+    --eight-w: 2vw;
+}
+#hypnotic div::before {
+    width: calc(100% + 40px);
+    height: 100%;
+    left: -40px;
+    opacity: .5;
+    background: radial-gradient(circle at 0 50%,rgba(0,255,255,0) 55%,rgba(0,255,255,0.8) 55.2%,rgba(0,255,255,0.8) 60%,rgba(0,255,255,0) 60.2%) -240px 50%,radial-gradient(circle at 0 50%,rgba(0,255,255,0) 55%,rgba(0,255,255,0.8) 55.2%,rgba(0,255,255,0.8) 60%,rgba(0,255,255,0) 60.2%) -200px 50%,radial-gradient(circle at 0 50%,rgba(0,255,255,0) 55%,rgba(0,255,255,0.8) 55.2%,rgba(0,255,255,0.8) 60%,rgba(0,255,255,0) 60.2%) -160px 50%,radial-gradient(circle at 0 50%,rgba(0,255,255,0) 55%,rgba(0,255,255,0.8) 55.2%,rgba(0,255,255,0.8) 60%,rgba(0,255,255,0) 60.2%) -120px 50%,radial-gradient(circle at 0 50%,rgba(0,255,255,0) 55%,rgba(0,255,255,0.8) 55.2%,rgba(0,255,255,0.8) 60%,rgba(0,255,255,0) 60.2%) -80px 50%,radial-gradient(circle at 0 50%,rgba(0,255,255,0) 55%,rgba(0,255,255,0.8) 55.2%,rgba(0,255,255,0.8) 60%,rgba(0,255,255,0) 60.2%) -40px 50%,radial-gradient(circle at 0 50%,rgba(0,255,255,0) 55%,rgba(0,255,255,0.8) 55.2%,rgba(0,255,255,0.8) 60%,rgba(0,255,255,0) 60.2%) 0 50%,radial-gradient(circle at 0 50%,rgba(0,255,255,0) 55%,rgba(0,255,255,0.8) 55.2%,rgba(0,255,255,0.8) 60%,rgba(0,255,255,0) 60.2%) 40px 50%,radial-gradient(circle at 0 50%,rgba(0,255,255,0) 55%,rgba(0,255,255,0.8) 55.2%,rgba(0,255,255,0.8) 60%,rgba(0,255,255,0) 60.2%) 80px 50%,radial-gradient(circle at 0 50%,rgba(0,255,255,0) 55%,rgba(0,255,255,0.8) 55.2%,rgba(0,255,255,0.8) 60%,rgba(0,255,255,0) 60.2%) 120px 50%;
+    background-repeat: no-repeat;
+    background-size: 400px 400px;
+    animation: hypnotic1 2.5s linear infinite;
+}
+.entry div:before, .entry div:after {
+    display: block;
+    content: '';
+    position: absolute;
+}
+#hypnotic div::after {
+    width: calc(100% + 40px);
+    height: 100%;
+    right: -40px;
+    opacity: .5;
+    background: radial-gradient(circle at 100% 50%,rgba(255,0,255,0) 55%,rgba(255,0,255,0.8) 55.2%,rgba(255,0,255,0.8) 60%,rgba(255,0,255,0) 60.2%) 180px 50%,radial-gradient(circle at 100% 50%,rgba(255,0,255,0) 55%,rgba(255,0,255,0.8) 55.2%,rgba(255,0,255,0.8) 60%,rgba(255,0,255,0) 60.2%) 140px 50%,radial-gradient(circle at 100% 50%,rgba(255,0,255,0) 55%,rgba(255,0,255,0.8) 55.2%,rgba(255,0,255,0.8) 60%,rgba(255,0,255,0) 60.2%) 100px 50%,radial-gradient(circle at 100% 50%,rgba(255,0,255,0) 55%,rgba(255,0,255,0.8) 55.2%,rgba(255,0,255,0.8) 60%,rgba(255,0,255,0) 60.2%) 60px 50%,radial-gradient(circle at 100% 50%,rgba(255,0,255,0) 55%,rgba(255,0,255,0.8) 55.2%,rgba(255,0,255,0.8) 60%,rgba(255,0,255,0) 60.2%) 20px 50%,radial-gradient(circle at 100% 50%,rgba(255,0,255,0) 55%,rgba(255,0,255,0.8) 55.2%,rgba(255,0,255,0.8) 60%,rgba(255,0,255,0) 60.2%) -20px 50%,radial-gradient(circle at 100% 50%,rgba(255,0,255,0) 55%,rgba(255,0,255,0.8) 55.2%,rgba(255,0,255,0.8) 60%,rgba(255,0,255,0) 60.2%) -60px 50%,radial-gradient(circle at 100% 50%,rgba(255,0,255,0) 55%,rgba(255,0,255,0.8) 55.2%,rgba(255,0,255,0.8) 60%,rgba(255,0,255,0) 60.2%) -100px 50%,radial-gradient(circle at 100% 50%,rgba(255,0,255,0) 55%,rgba(255,0,255,0.8) 55.2%,rgba(255,0,255,0.8) 60%,rgba(255,0,255,0) 60.2%) -140px 50%,radial-gradient(circle at 100% 50%,rgba(255,0,255,0) 55%,rgba(255,0,255,0.8) 55.2%,rgba(255,0,255,0.8) 60%,rgba(255,0,255,0) 60.2%) -180px 50%;
+    background-repeat: no-repeat;
+    background-size: 400px 400px;
+    animation: hypnotic2 2.5s linear infinite;
+}
+.entry div:before, .entry div:after {
+    display: block;
+    content: '';
+    position: absolute;
+}
